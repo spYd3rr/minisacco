@@ -1,0 +1,170 @@
+@import "bootstrap.min.css";
+/**
+* general styles
+**/
+
+green,.green,#green{
+    font-family: sans-serif;
+    color: darkgreen;
+    font-weight: 600;
+}
+
+red,.red,#red{
+    font-family: sans-serif;
+    color: darkred;
+    font-weight: 600;
+}
+
+blue,.blue,#blue{
+    font-family: sans-serif;
+    color: darkblue;
+    font-weight: 600;
+}
+.border-bottom{
+    border-bottom: solid 2px black;
+    margin:15px 0 10px 0;
+}
+.dashboard{
+    font-size:110%;
+    width:80%;
+    margin:0 0 0 9%;
+    padding:2% 0 0 0;
+}
+
+@media screen and (min-width: 1199px){
+    .dashboard{
+        padding:2% 0 0 0;
+        margin: 0 0 0 10%;
+    }
+}
+.body{
+    background-color: #e2e48b;
+    width: 90%;
+    margin: 5px 0 1% 5%;
+    padding: 2% 2% 0 0;
+}
+.body{
+    border-bottom: solid 20px #5b7093;
+    border-left: solid 20px #5b7093;
+    border-right: solid 20px transparent;
+    border-top: solid 20px transparent;
+    border-top: solid 20px #fff;
+    border-right: solid 20px #fff;
+    border-left: solid 20px transparent;
+    border-bottom: solid 20px transparent;
+}
+
+.top-menu{
+    width:100%;
+    /*-- height:25px; */
+}
+
+
+table tr{
+    line-height: 25px;
+}
+table td{
+    width:300px;
+    padding:0 0 0 35px;
+}
+
+.middle-border {
+    min-height: 300px;
+    border-right: 1px solid #2651ff;
+    border-right: 1px solid rgba(54, 51, 255, 0.6);
+}
+
+.bold{
+    font-weight: bolder;
+    font-style: oblique;
+    text-decoration: underline;
+    padding: 0 0 5px 0;
+    color: darkgreen;
+}
+
+.bolder{
+    font-weight: bolder;
+    font-style: normal;
+    padding: 0 0 5px 0;
+    color: darkgreen;
+    text-transform: uppercase;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+.inline-link{
+    color:blue;
+}
+/*
+* top menu styles
+*/
+.menu-list{
+    text-align: center;
+    margin: 10px 0 0 0   ;
+}
+
+.menu-list li{
+    display: inline;
+    padding:0 5px 0 5px;
+    font-size: 130%;
+    text-transform: uppercase;
+}
+.menu-list li a{
+    display: inline;
+    padding:0 5px 0 5px;
+    font-size: 110%;
+    color: #0e0e0e;
+    text-transform: uppercase;
+}
+
+.left-bar{
+    border-left: solid 1px #0e0e0e;
+}
+
+
+.project-intro{
+    background-color: #97aaa9;
+    font-family: "Agency FB", sans-serif;
+    font-size: 300%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.menu-list li a:hover{
+    color: #f88340;
+    text-decoration: none;
+    background-color: #fffafe;
+    padding: 9px 5px 9px 5px;
+}
+.menu-list li a:active{
+    color:darkblue;
+}
+
+/*
+* form styles
+*/
+.form{
+    width:40%;
+    margin-left:30%;
+}
+
+/*
+* session
+*/
+.uname{
+    font-family: sans-serif;
+    color: #f2302b;
+}
+
+/**
+ui dialog
+*/
+
+.float-right{
+    float: right;
+}
+
+.thirty{
+    width:30%;
+}
